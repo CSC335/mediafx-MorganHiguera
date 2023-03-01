@@ -29,6 +29,8 @@ public class PlayAnMP3 extends Application {
   public void start(Stage stage) throws Exception {
     BorderPane pane = new BorderPane();
     //I, Morgan Higuera, changed the song name to SwingCheese before pushing to GitHub
+    //This is awesome
+    //Git is cool
     String path = "songfiles/SwingCheese.mp3";
     pane.setCenter( new Label(path));
     playASong(path);
